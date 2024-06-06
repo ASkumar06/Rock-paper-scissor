@@ -1,0 +1,164 @@
+/*body{
+    background-color: rgb(165, 210, 236);
+    background: linear-gradient(to left,rgb(99, 190, 243),rgb(210, 239, 255));
+}*/
+.header{    
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-family: "Jersey 10";
+    height: 110px;
+    padding-top: 0px;
+    border-bottom-color: rgb(197, 197, 197);
+    border-bottom-style:solid; 
+    background: linear-gradient(rgb(184, 184, 184),white,rgb(184, 184, 184)); 
+}
+
+.option-grid{
+    
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 10px;
+    margin-bottom: 40px;
+    margin-top:60px;
+    
+}
+
+.game-icon{
+    width: 80px;
+    height: 80px;
+    
+   
+}
+
+.option-button{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(79, 167, 255);
+    
+
+}
+
+.gamelogo{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.score-grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    gap: 7px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:20px ;
+    font-family: "Jersey 10";
+    font-size: 24px;
+}
+
+.scoreElement{
+    border-color: black;
+    border-style: solid;
+    padding-top: 5px;
+
+}
+
+.reset_button{
+    background-color: black;
+    border:none;
+    padding: 0 10px;
+    color: white;
+    font-family: "Jersey 10";
+    font-size: 30px;
+}
+
+.reset_button:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+    border-style: solid;
+}
+
+.game-text{
+    font-family: "Jersey 10";
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.default-icon{
+width: 50px;
+height: 50px;
+}
+
+.you-picked{
+    margin-right: 20px;
+}
+
+
+@keyframes blinkgreen{
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: green;
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: green;
+    }
+}
+
+.blinkgreen{
+    animation: blinkgreen 0.4s forwards;
+}
+
+@keyframes blinkred{
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: red;
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
+
+.blinkred{
+    animation: blinkred 0.4s forwards;
+}
+
+@keyframes blinkgrey{
+    0%{
+        background-color: white;
+    }
+    25%{
+        background-color: grey;
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: grey;
+    }
+}
+
+.blinkgrey{
+    animation: blinkgrey 0.4s forwards;
+}
+
